@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Basic React Counter App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://raw.githubusercontent.com/buraxta/Basic-React-Counter-App/master/counter-project.gif" width=350 />
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+The Basic React Counter App is a React application that provides users with the ability to manage a simple counter. The app offers increment and decrement buttons, allowing users to modify the counter value, which is displayed in real-time on the screen.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Increment and decrement functionality for the counter
+- Change the size of the counters
+- Real-time display of the current counter value
+- User-friendly interface
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
 
-### `npm test`
+The Basic React Counter App displays a counter value on the screen along with two buttons: "+" and "-". By clicking the "+" button, the counter value increases, and by clicking the "-" button, it decreases. The updated counter value is immediately reflected on the screen.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To get a copy of this project up and running on your local machine, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Make sure you have Node.js and npm (Node Package Manager) installed on your machine. You can download Node.js from the official website: [https://nodejs.org](https://nodejs.org)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repository to your local machine using the following command:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```
+   git clone https://github.com/buraxta/Basic-React-Counter-App.git
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Navigate to the project directory:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```
+   cd Basic-React-Counter-App
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Install the project dependencies by running the following command:
 
-## Learn More
+   ```
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Once the installation is complete, start the development server with the following command:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```
+   npm start
+   ```
 
-### Code Splitting
+5. The counter application should now be running on [http://localhost:3000](http://localhost:3000) in your web browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions to this project are welcome. To contribute, please follow these steps:
 
-### Making a Progressive Web App
+1. Fork the repository on GitHub.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with descriptive messages.
+4. Push your changes to your forked repository.
+5. Submit a pull request to the main repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- This project was inspired by the desire to create a simple React application for learning purposes.
 
-### Advanced Configuration
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any questions, suggestions, or would like to report a bug, please feel free to contact me at [burakgulluler@gmail.com](mailto:burakgulluler@gmail.com).
